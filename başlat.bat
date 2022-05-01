@@ -1,6 +1,5 @@
 echo off
-color 0f
+color 200fg
 cls
 :a
 node bot.js
-goto a
