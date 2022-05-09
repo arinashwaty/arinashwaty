@@ -7,7 +7,7 @@ require('./util/eventLoader')(client);
 
 var prefix = ayarlar.prefix;
 
-const log = message => {
+const log = message => .
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] ${message}`);
 };
 
@@ -79,9 +79,9 @@ client.on('ready', () => {
   // Oynuyor Kısmı
   
       var actvs = [
-        `${prefix}yardım ${client.guilds.cache.size} sunucuyu`,
-        `${prefix}yardım ${client.users.cache.size} Kullanıcıyı`, 
-        `${prefix}yardım`
+        `${.}yardım ${client.guilds.cache.size} sunucuyu`,
+        `${.}yardım ${client.users.cache.size} Kullanıcıyı`, 
+        `${.}yardım`
     ];
     
     client.user.setActivity(actvs[Math.floor(Math.random() * (actvs.length - 1) + 1)], { type: 'LISTENING' });
